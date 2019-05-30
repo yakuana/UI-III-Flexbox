@@ -79,8 +79,7 @@ h1, h2, h3, h4, h5 {
 
 /* header */
 
-header {
-	border: 1px solid orange; 
+header { 
 	width: 1200px; 
 	display: flex;
 	flex-direction: row;
@@ -95,7 +94,6 @@ header nav {
 	align-items: center;
 	width: 800px;
 	height: 80px; 
-	
 }
 
 header nav a {
@@ -109,9 +107,8 @@ header nav a:hover {
 }
 
 .description {
-	border: 1px solid blueviolet; 
 	width: 1200px; 
-	height: 320px; 
+	height: 350px; 
 	display: flex;
 	flex-direction: column; 
 	justify-content: space-between; 
@@ -120,14 +117,46 @@ header nav a:hover {
 }
 
 .services-header-img {
-	border: 1px solid red; 
 	padding-left: 115px; 
 }
 
 .service-text {
 	padding-left: 115px; 
+	/* padding-right: 20px;  */
+
 }
 
 .service-text h1 {
 	font-size: 20px; 
+}
+
+.service-text p {
+	padding-bottom: 30px;  
+	border-bottom: 1px solid black;
+}
+
+.services {
+	height: 790px;
+	width: 1291px; 
+	padding-left: 115px; 
+	display: flex; 
+	flex-direction: column; 
+	justify-content: space-evenly;
+	flex-wrap: wrap; 
+}
+
+.services div {
+	border: 1px solid black; 
+	height: 200px; 
+	width: 500px; 
+
+}
+
+.round-button {
+	border: 1px solid black;
+	border-radius: 4px; 
+	width: 145px; 
+	height: 30px; 
+	display: flex; 
+	justify-content: center;
 }
