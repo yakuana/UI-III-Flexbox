@@ -96,9 +96,28 @@ nav a:hover {
 }
 
 .description {
-    border: 1px solid green; 
+    /* border: 1px solid green;  */
+    height: 430px;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-between;  
+    align-items: center; 
 }
 
+.description img {
+    /* border: 1px solid purple;  */
+    width: 1215px; 
+}
+
+.service-text {
+    border-bottom: 1px solid black; 
+    width: 1215px; 
+    height: 110px;
+}
+
+.service-text h1 {
+    font-size: 25px; 
+}
 .services {
     border: 1px solid yellow; 
 }
